@@ -1,0 +1,259 @@
+/* Main elements */
+body {
+  font-family: "proxima-nova",sans-serif;
+	font-size: 14px;
+	min-width: 960px;
+	color: #4d4d4d;
+	background-color: #f2fbff;
+}
+
+header, nav {
+   display: block;
+}
+
+header {position: relative; padding-bottom: 30px;}
+
+ol li { margin-bottom: 15px;}
+
+h1, h2 {
+  font-family: 'IM Fell English', serif;
+  text-shadow: 2px 2px 2px #aaa;
+}
+
+h1 { 
+  color: #049ddc;
+  text-shadow: 3px 3px 3px #d6eff6;
+}
+
+a { color: #4d4d4d; }
+a:hover {color: green; text-decoration: none;}
+
+/* nav */
+nav {position:static; margin-top:0; z-index:999;}
+nav ul {list-style:none; }
+nav li {display:inline; margin-left:40px; margin-top: 10px; float:left;}
+nav a {text-decoration: none; color: #4d4d4d; font-size: 19px;  font-weight: bold;}
+nav a.right-side:hover { color: #59b374;}
+nav a.left-side:hover { color:  #049ddc;}
+nav li.pull-up {margin-top: 0px;}
+nav li.alpha {margin-left: 0px;}
+
+.section-nav {
+  float: right;
+  border-top: 3px solid #dedede;
+  width: 300px;
+  height: 50px;
+}
+
+.section-nav li {
+  float:right;
+}
+
+/* Class selectors */
+.scrollfix { text-indent: -9999px;}
+
+.taller {
+    margin-bottom: 80px;
+}
+
+.even-taller {
+  margin-bottom: 110px;
+}
+
+.remove, .hideable {
+    display: none;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+	float:right;
+}
+
+.push-down {  
+  margin-top: 30px;
+}
+
+.nudge-down {
+  margin-top: 15px;
+}
+
+.spacer {
+  margin-bottom: 30px;
+}
+
+.pad-top {
+  padding-top: 15px;
+}
+
+.right-align {
+  text-align: right;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.middle {
+  vertical-align: middle;
+}
+
+.learn {
+  margin-right: 20px;
+}
+
+.slides li {
+  margin-left: 0;
+}
+
+.relative {
+	position: relative;
+}
+/* Id selectors */
+
+#home-bottom h1 {color: #59b374;}
+
+#bar {height:90px; position: fixed;}
+
+#top {
+    width: 960px;
+    z-index: 10;
+    padding-top: 30px;
+}
+
+#top.no-top-padding {
+  padding-top: 0px;
+}
+
+#home {
+  margin-bottom: 40px;
+}
+
+nav#fixable {
+    margin: 0;
+    height: 80px;
+    position: static;
+    width: 960px;
+    background: transparent url(../images/bg_nav.png) no-repeat bottom center;    
+}
+
+nav#fixable.knockout {
+  position: fixed;
+  z-index: 6;
+  top: 0px;
+}
+
+#about, #home, #team, #model, #services, #blog, #gmgfund, #clients, #our_approach, #our_services, #team_members {
+ margin-top: -80px;  
+ padding-top: 80px; 
+}
+
+#yang {
+    z-index: 0;
+}
+
+#yang .container_12 {
+  margin-bottom: 30px;
+}
+
+#duck {
+  height: 170px;
+}
+
+#bottom {
+  
+}
+
+#bottom-spacer {
+	padding-bottom: 380px;
+	height: 1px;
+}
+#footer {
+  position: fixed;
+  height: 40px;
+  padding: 10px 0;
+  bottom: 0px;
+  width: 100%;
+  background: #4d4d4d url(../images/footer-repeat.png) repeat-x top left;
+  color: #cecece;
+  font-size: 14px;
+}
+
+#footer .grid_6 {
+  
+}
+
+#footer a {
+  color: #cecece;
+  margin-right: 30px;
+}
+#footer a:hover {
+	color: #999;
+}
+
+#how-it-works, #our-approach, #our-services, #team-members, .white-bg {
+  border-top: 2px solid #dedede;
+  border-bottom: 2px solid #dedede;
+  background-color: #fff;
+  padding: 20px;
+  display: none;
+}
+
+#services_nav {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	zoom: 1;
+}
+
+#services_header {
+	padding-top: 10px;
+}
+
+#services_slider {
+  background-color: #fff;
+  border: 1px solid #dedede;
+  padding: 10px 10px;
+  font-size: .90em;
+}
+
+#services_slider img {
+  float: left;
+  margin-right: 10px;
+}
+
+#services_slider li.center-align img {
+	margin: 0 0 0 65px;
+}
+
+
+#about img {
+	margin: 30px 0;
+}
+
+#team img {
+	width: 150px;
+	padding: 8px;
+	border: 1px solid #dedede;
+	background-color: #fff;
+}
+
+
+/* other pages */
+
+#services-lists {
+  background-color: #fff;
+  border-top: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+  padding: 20px 0;
+}
+
+#team-members img {
+  float: left;
+  padding: 8px;
+  border: 1px solid #dedede;
+  margin: 0 10px 10px 0;
+}
+
